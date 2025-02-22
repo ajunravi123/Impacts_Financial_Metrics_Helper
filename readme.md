@@ -1,8 +1,13 @@
 # 📊 Inventory-Based Company Analysis Agent
 
 Author: Ajun Ravi
+
 Email: ajunravi123@gmail.com
 
+
+<div align="center">
+  <img src="https://drive.google.com/uc?export=view&id=1kWsMNt2AEw7ZlwNRPbMb8qfaZju7auHs" alt="Inventory Analysis Banner" width="800"/>
+</div>
 ## 🎯 Overview
 
 An intelligent web application designed to analyze financial data for inventory-based companies (manufacturing, retail) using `yfinance`. The agent calculates key benefits like Margin Rate Lift and Efficiency Re-Investment, presenting results through a modern UI with interactive tables and comprehensive summaries.
