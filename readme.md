@@ -14,7 +14,8 @@ An intelligent web application designed to analyze financial data for inventory-
 - **Smart Ticker Mapping:** Converts company names to tickers using multiple providers:
   - Groq
   - Ollama
-  - OpenFIGI
+  - Alpha Vantage
+  - Finnhub
 - **Financial Insights:** Comprehensive data collection via `yfinance`:
   - Revenue metrics
   - Market capitalization
@@ -40,7 +41,8 @@ An intelligent web application designed to analyze financial data for inventory-
 - Node.js (optional, for frontend development)
 - API Keys (optional):
   - Groq
-  - OpenFIGI
+  - Alpha Vantage
+  - Finnhub
 
 ### Installation
 
