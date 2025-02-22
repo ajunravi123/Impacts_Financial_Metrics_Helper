@@ -144,13 +144,6 @@ project/
 - [ ] Enhance visualization with interactive charts
 - [ ] Expand analysis metrics
 
-## 🤝 Contributing
-
-We welcome contributions! Feel free to:
-- Submit issues
-- Propose new features
-- Create pull requests
-
 ---
 
 Made with ❤️ by [Ajun Ravi](mailto:ajunravi123@gmail.com)
