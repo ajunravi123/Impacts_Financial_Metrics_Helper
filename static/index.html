@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FinScope - Company Analysis</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body class="bg-gradient-to-br from-gray-900 to-blue-900 text-white font-sans min-h-screen">
+    <header class="bg-gray-800 shadow-lg p-4">
+        <h1 class="text-3xl font-bold text-center">Impact Financial Metrics</h1>
+    </header>
+    <div class="fixed top-4 right-4 z-50" id="toastContainer"></div>
+    <div class="container mx-auto p-6">
+        <div class="flex justify-center mb-8">
+            <div class="flex w-full max-w-md">
+                <input id="tickerInput" type="text" placeholder="Enter Company or Ticker (e.g., Tesla or TSLA)" 
+                       class="p-3 w-full bg-gray-800 border border-gray-700 rounded-l-lg focus:outline-none focus:ring-2 focus:ring-blue-500 transition duration-300">
+                <button id="analyzeBtn" 
+                        class="bg-blue-600 text-white p-3 rounded-r-lg hover:bg-blue-700 transition duration-300 flex items-center">
+                    <span>Analyze</span>
+                </button>
+            </div>
+        </div>
+
+        <div id="loader" class="hidden flex justify-center items-center mb-6">
+            <div class="loader w-12 h-12 border-4 border-t-transparent border-blue-500 rounded-full animate-spin"></div>
+        </div>
+
+        <div id="results" class="hidden">
+            <h2 class="text-2xl font-semibold mb-6 text-center animate-fade-in">Analysis Results</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+                <div class="bg-gray-800 p-6 rounded-lg shadow-lg animate-scale-in">
+                    <h3 class="text-xl font-bold mb-4">General Benefit Ranges</h3>
+                    <table id="resultsTable" class="w-full text-left">
+                        <thead class="bg-gray-700">
+                            <tr>
+                                <th class="p-3">Metric</th>
+                                <th class="p-3">Low</th>
+                                <th class="p-3">High</th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-lg shadow-lg animate-scale-in">
+                    <h3 class="text-xl font-bold mb-4">Summary</h3>
+                    <ul id="summary" class="list-disc list-inside space-y-2 text-lg"></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/static/script.js"></script>
+</body>
+</html>

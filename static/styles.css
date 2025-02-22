@@ -1,0 +1,73 @@
+/* Loader Animation */
+.loader {
+    border-top-color: transparent;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Fade-in Animation */
+@keyframes fade-in {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.animate-fade-in {
+    animation: fade-in 0.5s ease-in-out;
+}
+
+/* Scale-in Animation */
+@keyframes scale-in {
+    0% { transform: scale(0.95); opacity: 0; }
+    100% { transform: scale(1); opacity: 1; }
+}
+
+.animate-scale-in {
+    animation: scale-in 0.5s ease-in-out;
+}
+
+/* Popup Styling */
+.popup {
+    animation: scale-in 0.3s ease-out;
+}
+
+/* Text Shadow for Readability */
+.text-shadow {
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+/* Table Styling */
+table tbody tr:nth-child(odd) {
+    background-color: #1f2937; /* gray-800 */
+}
+
+table th, table td {
+    border-bottom: 1px solid #374151; /* gray-700 */
+}
+
+table th {
+    font-weight: 600;
+}
+
+table td {
+    padding: 1rem;
+}
+
+/* Total Row Styling */
+table tbody tr.font-bold {
+    color: #ffffff;
+}
+
+.raw_div {
+    color: #738ee0;
+    font-size: 16px;
+    background: #262626;
+}
+
+.calc_div {
+    color: #cfcffd;
+    font-size: 14px;
+}
