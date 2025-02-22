@@ -1,0 +1,7 @@
+fastapi==0.115.0
+uvicorn==0.30.6
+yfinance==0.2.43
+ollama==0.3.3  # Assuming a Python client for Ollama exists
+jinja2==3.1.4
+finnhub-python==2.4.22
+groq==0.18.0

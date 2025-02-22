@@ -1,0 +1,28 @@
+{
+    "summarizer": {
+        "provider": "ollama",
+        "groq": {
+            "api_key": "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",
+            "model": "mixtral-8x7b-32768"
+        },
+        "ollama": {
+            "model": "deepseek-r1:1.5b"
+        }
+    },
+    "ticker_mapper": {
+        "provider": "alphavantage",
+        "alphavantage" : {
+            "api_key": "WY4M2NUAS9D9URIQ"
+        },
+        "finnhub" : {
+            "api_key": "cust4n1r01qrsirjds2gcust4n1r01qrsirjds30"
+        },
+        "groq": {
+            "api_key": "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",
+            "model": "mixtral-8x7b-32768"
+        },
+        "ollama": {
+            "model": "deepseek-r1:1.5b"
+        }
+    }
+}
